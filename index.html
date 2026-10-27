@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Gamer Express Demo - SPS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans pb-20">
+
+    <!-- Header -->
+    <header class="bg-slate-900 border-b border-indigo-500/20 sticky top-0 z-50 px-4 py-3 shadow-lg">
+        <div class="max-w-md mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-gamepad text-indigo-400 text-2xl"></i>
+                <div>
+                    <h1 class="font-black text-lg text-white tracking-wide">GAME STORE DEMO</h1>
+                    <p class="text-xs text-indigo-400 font-medium">San Pedro Sula, Honduras 🇭🇳</p>
+                </div>
+            </div>
+            <span class="bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 text-[10px] px-2 py-1 rounded-full font-bold flex items-center gap-1">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Abierto
+            </span>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <div class="max-w-md mx-auto p-4">
+        <div class="bg-gradient-to-r from-indigo-900/60 to-purple-900/60 border border-indigo-500/30 rounded-2xl p-4 text-center">
+            <h2 class="text-base font-extrabold text-white">Catálogo Digital Interactivo</h2>
+            <p class="text-xs text-slate-300 mt-1">Elige tus juegos o consolas y ordénalos directo a nuestro WhatsApp sin esperas.</p>
+        </div>
+    </div>
+
+    <!-- Product Grid -->
+    <main class="max-w-md mx-auto px-4 space-y-3">
+
+        <!-- Item 1 -->
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-3 flex gap-3 items-center shadow-md">
+            <div class="w-20 h-20 bg-slate-800 rounded-lg flex items-center justify-center text-3xl text-indigo-400 shrink-0">
+                <i class="fa-brands fa-playstation"></i>
+            </div>
+            <div class="flex-1 min-w-0">
+                <span class="bg-blue-500/20 text-blue-300 text-[10px] px-1.5 py-0.5 rounded font-bold">PS5</span>
+                <h3 class="font-bold text-sm text-white truncate mt-1">EA Sports FC 25 (Físico)</h3>
+                <p class="text-xs text-emerald-400 font-bold mt-0.5">L. 1,650 HNL <span class="text-slate-500 text-[10px] line-through font-normal">L. 1,800</span></p>
+                <div class="mt-2">
+                    <a href="https://wa.me/50495311883?text=Hola,%20vi%20su%20catálogo%20y%20quiero%20ordenar:%20EA%20Sports%20FC%2025%20para%20PS5" 
+                       target="_blank"
+                       class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> Pedir por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-3 flex gap-3 items-center shadow-md">
+            <div class="w-20 h-20 bg-slate-800 rounded-lg flex items-center justify-center text-3xl text-red-500 shrink-0">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <div class="flex-1 min-w-0">
+                <span class="bg-red-500/20 text-red-300 text-[10px] px-1.5 py-0.5 rounded font-bold">Nintendo</span>
+                <h3 class="font-bold text-sm text-white truncate mt-1">Nintendo Switch OLED 64GB</h3>
+                <p class="text-xs text-emerald-400 font-bold mt-0.5">L. 7,490 HNL <span class="text-slate-500 text-[10px] font-normal text-slate-400">Stock Limitado</span></p>
+                <div class="mt-2">
+                    <a href="https://wa.me/50495311883?text=Hola,%20vi%20su%20catálogo%20y%20deseo%20consultar%20por%20la%20Nintendo%20Switch%20OLED" 
+                       target="_blank"
+                       class="inline-flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> Consultar Stock
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-3 flex gap-3 items-center shadow-md">
+            <div class="w-20 h-20 bg-slate-800 rounded-lg flex items-center justify-center text-3xl text-indigo-400 shrink-0">
+                <i class="fa-solid fa-car"></i>
+            </div>
+            <div class="flex-1 min-w-0">
+                <span class="bg-amber-500/20 text-amber-300 text-[10px] px-1.5 py-0.5 rounded font-bold">Preventa</span>
+                <h3 class="font-bold text-sm text-white truncate mt-1">Grand Theft Auto VI (PS5)</h3>
+                <p class="text-xs text-indigo-400 font-bold mt-0.5">Apartado con L. 300 HNL</p>
+                <div class="mt-2">
+                    <a href="https://wa.me/50495311883?text=Hola,%20quiero%20hacer%20la%20preventa%20de%20GTA%20VI%20para%20PS5" 
+                       target="_blank"
+                       class="inline-flex items-center gap-1.5 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-all shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-sm"></i> Apartar Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Bar -->
+    <div class="fixed bottom-0 left-0 right-0 bg-slate-900/95 backdrop-blur border-t border-slate-800 py-2.5 px-4 z-40">
+        <div class="max-w-md mx-auto flex items-center justify-between text-xs text-slate-400">
+            <span>⚡ Diseñado por David Telles (SPS)</span>
+            <span class="text-indigo-400 font-semibold">Demo 100% Funcional</span>
+        </div>
+    </div>
+
+</body>
+</html>
